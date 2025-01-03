@@ -1,0 +1,113 @@
+
+body{
+    background-color: black;
+}
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+.mainText {
+    background: linear-gradient(to right, #10214b, #63b3ed); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-size: 40px;
+    font-family: 'Playfair Display', serif !important;
+    font-style: normal;
+    text-align: center; 
+    gap: 20px; 
+    margin-top: 100px; 
+}
+.topImages{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.topImages img {
+
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.sideImages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: -250px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sideImages img {
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.cssbuttons-io-button {
+    background: #10214b;
+    color: white;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #10214b;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #76a8b4;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #10214b;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
